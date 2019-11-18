@@ -6,7 +6,7 @@
 
 2. What are the key features of Python?
 
-3. What type of language is python?
+3. What type of language is python? Programming or Scripting? 
 
 4. How is Python an interpreted language?
 
@@ -18,7 +18,7 @@
 
 8. What is PYTHON PATH?
 
-9. What are python modules?
+9. What are python modules? Name some commonly used built-in modules in python?
 
 10. What are local variables and global variables in Python?
 
@@ -42,7 +42,7 @@
 
 20. How does break, continue and pass work?
 
-21. What does [::-1} do?
+21. What does [::-1] do?
 
 22. How can you randomize the items of a list in place in Python?
 
