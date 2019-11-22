@@ -82,3 +82,20 @@ class Person:
     def walked(self, miles_walked):
         self.miles_walked += miles_walked
         return self.miles_walked
+
+
+"""PYTHONPATH"""
+
+# When module is imported, the interpreter searches for a built-in module with the same name 
+# Then it checks sys.path for that module.
+# sys.path is initialized from 
+# 1) current working directory 
+# 2) the directories defined in PYTHONPATH,
+# 3) the installation-dependent default
+# ex: sys.path = ['', '/Library/../python3.zip, '/Desktop/goodbye']
+
+# PYTHONPATH is an environment variable that is used when a module is imported.
+# PYTHONPATH is also looked up to check the presence of imported modules in various directories. 
+# PYTHONPATH is just a list of directory names (colon separated just like PATH)
+# The interpreter uses it to determine which module to load.
+'SET PYTHONPATH' -> adds path to module to sys.path [] -> import mod_a -> check sys.path -> success!
