@@ -132,15 +132,15 @@
 64. What does an object() do?
 
 ### Basic Python Programs 
-65. Write a program in Python to execute the Bubble sort algorithm.
+65. Write a function in Python to execute the Bubble sort algorithm.
 
-66. Write a program in Python to produce Star triangle.
+66. Write a function in Python to produce Star triangle.
 
-67. Write a program to produce Fibonacci series in Python.
+67. Write a function to produce Fibonacci series in Python.
 
-68. Write a program in Python to check if a number is prime.
+68. Write a function in Python to check if a number is prime.
 
-69. Write a program in Python to check if a sequence is a Palindrome.
+69. Write a function in Python to check if a sequence is a Palindrome.
 
 70. Write a one-liner that will count the number of capital letters in a file. Your code should work even if the file is too big to fit in memory.
 
