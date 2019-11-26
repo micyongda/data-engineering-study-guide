@@ -77,7 +77,7 @@ Python lay down Try, Except, Finally constructs to handle errors as well as Exce
 
 76. What Is Slicing In Python?
 
-Slicing is a string operation for extracting a part of the string, or some part of a list. In Python, a string (say text) begins at index 0, and the nth character stores at position text[n-1]. Python can also perform reverse indexing, i.e., in the backward direction, with the help of negative numbers. In Python, the slice() is also a constructor function which generates a slice object. The result is a set of indices mentioned by range(start, stop, step). The slice() method allows three parameters. 1. start – starting number for the slicing to begin. 2. stop – the number which indicates the end of slicing. 3. step – the value to increment after each index (default = 1).
+Slicing is a string operation for extracting a part of the string, or some part of a list. 
 
 77. Is A String Immutable Or Mutable In Python?
 
@@ -92,10 +92,9 @@ Python uses a mechanism, which is known as "Call-by-Object", sometimes also call
 If you pass immutable arguments like integers, strings or tuples to a function, the passing acts like Call-by-value. It's different, if we pass mutable arguments.
 
 All parameters (arguments) in the Python language are passed by reference. It means if you change what a parameter refers to within a function, the change also reflects back in the calling function.
-
-This scheme also has the advantage of bringing more time and space efficiency because it leaves the need for creating local copies.
-
-On the contrary, the disadvantage could be that a variable can get changed accidentally during a function call. Hence, the programmers need to handle in the code to avoid such uncertainty.
+```
+https://www.tutorialspoint.com/how-are-arguments-passed-by-value-or-by-reference-in-python
+```
 
 79. What Does The Join Method Do In Python?
 
