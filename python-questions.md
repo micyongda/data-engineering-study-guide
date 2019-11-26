@@ -158,30 +158,43 @@ print(A0,A1,A2,A3,A4,A5,A6)
 ```
 
 73 - 84 
-### Questions from data engineering cookbook and other website
-73. What is the difference between an object and a class
+### Questions from techbeamers
+73. What Is The Output Of The Following Python Code Fragment? Justify Your Answer.
+```
+def extendList(val, list=[]):
+    list.append(val)
+    return list
 
-74. Explian Immutability 
+list1 = extendList(10)
+list2 = extendList(123,[])
+list3 = extendList('a')
 
-75. What is the difference between args and kwargs? 
+print "list1 = %s" % list1
+print "list2 = %s" % list2
+print "list3 = %s" % list3
+```
 
-76. How to reverse a linked list? 
+74. What are decorators in python and when is it Uused?
 
-77. What's the difference between a library, framework, and package? 
+75. How Do You Handle Exceptions With Try/Except/Finally In Python?
 
-78. What's the difference between OOP and functional programming? 
+76. What Is Slicing In Python?
 
-79. What are Python decorators?
+77. Is A String Immutable Or Mutable In Python?
 
-80. How are arguments passed by value or by reference?
+78. How are arguments passed by value or by reference?
+
+79. What Does The Join Method Do In Python?
+
+80. What Is Composition In Python?
 
 81. How can you share global variables across modules?
 
-82. Why lambda forms in python does not have statements?
+82. What Are The Optional Statements Possible Inside A Try-Except Block In Python?
 
-83. What is unittest in Python?
+83. What is the difference between an object and a class?
 
-84. What are generators in Python?
+84. How to reverse a linked list? 
 
 ### Data Analysis Python Interview Questions
 85. What is map function in Python?
@@ -289,5 +302,5 @@ d) when an exception occurs into except block
 
 # Links to Answers
 * Questions 1-72 85-100: (https://www.edureka.co/blog/interview-questions/python-interview-questions/)
-* Questions 73-78: (https://www.youtube.com/watch?v=WbqRH2r3N40&feature=youtu.be)
-* 79-84: (https://www.guru99.com/python-interview-questions-answers.html)
+* Questions 73-84: (https://www.techbeamers.com/python-interview-questions-programmers/)
+
