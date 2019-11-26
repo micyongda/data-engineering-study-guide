@@ -1,5 +1,5 @@
 ## Questions from data engineering cookbook and other website
-73. What Is The Output Of The Following Python Code Fragment? Justify Your Answer.
+#### 73. What Is The Output Of The Following Python Code Fragment? Justify Your Answer.
 ```
 def extendList(val, list=[]):
     list.append(val)
@@ -41,7 +41,7 @@ list2 = [123]
 list3 = ['a']
 ```
 
-74. What are decorators in python and when is it Uused?
+#### 74. What are decorators in python and when is it Uused?
 
 Python decorator is a relative change that you do in Python syntax to adjust the functions quickly.
 
@@ -71,21 +71,21 @@ After the function call
 9
 ```
 
-75. How Do You Handle Exceptions With Try/Except/Finally In Python?
+#### 75. How Do You Handle Exceptions With Try/Except/Finally In Python?
 
 Python lay down Try, Except, Finally constructs to handle errors as well as Exceptions. We enclose the unsafe code indented under the try block. And we can keep our fall-back code inside the except block. Any instructions intended for execution last should come under the finally block.
 
-76. What Is Slicing In Python?
+#### 76. What Is Slicing In Python?
 
 Slicing is a string operation for extracting a part of the string, or some part of a list. 
 
-77. Is A String Immutable Or Mutable In Python?
+#### 77. Is A String Immutable Or Mutable In Python?
 
 Python strings are indeed immutable.
 
 Let’s take an example. We have an “str” variable holding a string value. We can’t mutate the container, i.e., the string, but can modify what it contains that means the value of the variable.
 
-78. How are arguments passed by value or by reference?
+#### 78. How are arguments passed by value or by reference?
 
 Python uses a mechanism, which is known as "Call-by-Object", sometimes also called "Call by Object Reference" or "Call by Sharing"
 
@@ -96,15 +96,15 @@ All parameters (arguments) in the Python language are passed by reference. It me
 https://www.tutorialspoint.com/how-are-arguments-passed-by-value-or-by-reference-in-python
 ```
 
-79. What Does The Join Method Do In Python?
+#### 79. What Does The Join Method Do In Python?
 
 Python provides the join() method which works on strings, lists, and tuples. It combines them and returns a united value.
 
-80. What Is Composition In Python?
+#### 80. What Is Composition In Python?
 
 The composition is also a type of inheritance in Python. It intends to inherit from the base class but a little differently, i.e., by using an instance variable of the base class acting as a member of the derived class.
 
-81. What Are The Optional Statements Possible Inside A Try-Except Block In Python?
+#### 81. What Are The Optional Statements Possible Inside A Try-Except Block In Python?
 
 There are two optional clauses you can use in the try-except block.
 
@@ -113,11 +113,11 @@ It is useful if you want to run a piece of code when the try block doesn’t cre
 The “finally” clause
 It is useful when you want to execute some steps which run, irrespective of whether there occurs an exception or not.
 
-82. What is the difference between an object and a class?
+#### 82. What is the difference between an object and a class?
 
 Objects are an encapsulation of variables and functions into a single entity. Objects get their variables and functions from classes. Classes are essentially a template to create your objects.
 
-83. How can you share global variables across modules?
+#### 83. How can you share global variables across modules?
 
 The canonical way to share information across modules within a single program is to create a special configuration module (often called config or cfg). Just import the configuration module in all modules of your application; the module then becomes available as a global name. Because there is only one instance of each module, any changes made to the module object get reflected everywhere.
 ```
@@ -136,6 +136,6 @@ print config.x
 
 Module variables are also often used to implement the Singleton design pattern, for the same reason.
 
-84. What Is The Set Object In Python?
+#### 84. What Is The Set Object In Python?
 
 Sets are unordered collection objects in Python. They store unique and immutable objects. Python has its implementation derived from mathematics.
