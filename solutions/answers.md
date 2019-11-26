@@ -87,11 +87,11 @@ Let’s take an example. We have an “str” variable holding a string value. W
 
 78. How are arguments passed by value or by reference?
 
-In call-by-value, the argument whether an expression or a value gets bound to the respective variable in the function.
+Python uses a mechanism, which is known as "Call-by-Object", sometimes also called "Call by Object Reference" or "Call by Sharing"
 
-Python will treat that variable as local in the function-level scope. Any changes made to that variable will remain local and will not reflect outside the function.
+If you pass immutable arguments like integers, strings or tuples to a function, the passing acts like Call-by-value. It's different, if we pass mutable arguments.
 
-We use both “call-by-reference” and “pass-by-reference” interchangeably. When we pass an argument by reference, then it is available as an implicit reference to the function, rather than a simple copy. In such a case, any modification to the argument will also be visible to the caller.
+All parameters (arguments) in the Python language are passed by reference. It means if you change what a parameter refers to within a function, the change also reflects back in the calling function.
 
 This scheme also has the advantage of bringing more time and space efficiency because it leaves the need for creating local copies.
 
