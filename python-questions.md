@@ -188,13 +188,13 @@ print "list3 = %s" % list3
 
 80. What Is Composition In Python?
 
-81. How can you share global variables across modules?
+81. What Are The Optional Statements Possible Inside A Try-Except Block In Python?
 
-82. What Are The Optional Statements Possible Inside A Try-Except Block In Python?
+82. What is the difference between an object and a class?
 
-83. What is the difference between an object and a class?
+83. How can you share global variables across modules?
 
-84. How to reverse a linked list? 
+84. What is the set object in python?
 
 ### Data Analysis Python Interview Questions
 85. What is map function in Python?
