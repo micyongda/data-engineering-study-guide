@@ -23,6 +23,7 @@ def is_palindrome(s):
         else:
             return False
 
+# 2b.
 def non_recursive_palindrome(s):
     return s == s[::-1]
 
